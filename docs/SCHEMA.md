@@ -3,7 +3,7 @@
 ## `users/{uid}`
 
 | Campo | Tipo | Descrizione |
-|---|---|---|
+| --- | --- | --- |
 | displayName | string | Nome visualizzato |
 | email | string | Email account |
 | photoURL | string? | Foto profilo |
@@ -12,7 +12,7 @@
 ## `groups/{groupId}`
 
 | Campo | Tipo | Descrizione |
-|---|---|---|
+| --- | --- | --- |
 | name | string | Nome del gruppo |
 | description | string | Descrizione opzionale |
 | members | string[] | Array di uid dei membri |
@@ -23,7 +23,7 @@
 ## `groups/{groupId}/events/{eventId}`
 
 | Campo | Tipo | Descrizione |
-|---|---|---|
+| --- | --- | --- |
 | title | string | Titolo della proposta di uscita |
 | description | string | Dettagli |
 | date | string | Data ISO (es. 2026-10-04) |
@@ -34,7 +34,7 @@
 ## `groups/{groupId}/events/{eventId}/votes/{uid}`
 
 | Campo | Tipo | Descrizione |
-|---|---|---|
+| --- | --- | --- |
 | uid | string | Id del votante |
 | displayName | string | Nome del votante |
 | response | 'si' \| 'no' \| 'forse' | Risposta al sondaggio |
